@@ -1,0 +1,23 @@
+{
+  "name": "bcc-agent-skills",
+  "owner": {
+    "name": "bcc",
+    "email": "ud.k2007@gmail.com"
+  },
+  "metadata": {
+    "description": "my agent skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "build-skills",
+      "description": "includes mcp-builder and skill-creator",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/mcp-builder",
+        "./skills/skill-creator"
+      ]
+    }
+  ]
+}
